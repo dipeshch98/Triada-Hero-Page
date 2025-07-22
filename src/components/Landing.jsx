@@ -1,0 +1,59 @@
+import React from 'react'
+import Buttons from './Buttons'
+import icon from '..//images/triangle.svg'
+import backImage from '../images/back.jpg'
+
+const Landing = (props) => {
+    return (
+        <div className='w-full h-screen bg-center bg-cover' style={{ backgroundImage: `url(${backImage})` }}>
+            
+            {/* This div for navbar */}
+            <div className='p-10'>
+                <div className='flex justify-between items-center'>
+                    <div className='flex flex-row'>
+                        <div><Buttons name="ABOUT" /></div>
+                        <div><Buttons name="CONTACT"/></div>
+                    </div>
+                    <div className='flex justify-center items-center flex-col'>
+                        <div>
+                            <img src={icon} alt="ICON" className='w-12' />
+                        </div>
+                        <div>TRIADA</div>
+
+                    </div>
+                    <div>
+                        <Buttons name="35 DAYS LEFT"/>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* This div is for Content */}
+            <div className='flex justify-center items-center flex-col pt-25 gap-1'>
+                <div className='text-7xl font-mono tracking-widest'>COMMING SOON</div>
+                <div className='text-2xl'>We're currently working on somthing fantastic.</div>
+                <div className='text-2xl'>We'll be here soon, subscribe to be noticed.</div>
+                <div>
+                    <button>NOTIFY ME</button>
+                </div>
+            </div>
+
+
+            {/* This div is for footer */}
+            <div className='flex flex-col items-center pt-40 gap-2'>
+                <div>
+                    <div>TRIADA: Comming Soon</div>
+                    <div>@All Right Reserved</div>
+                </div>
+                <div className='flex gap-5'>
+                    <a href="https://www.facebook.com/" target='_blank'><img src="https://www.svgrepo.com/show/521654/facebook.svg" alt="Facebook" className='w-10' /></a>
+                    <a href="https://www.instagram.com/" target='_blank'><img src="https://www.svgrepo.com/show/521711/instagram.svg" alt="Instagram" className='w-10'/></a>
+                    <a href="https://www.twitter.com/" target='_blank'><img src="https://www.svgrepo.com/show/521900/twitter.svg" alt="Twitter" className='w-10'/></a>
+                    <a href="https://www.google.com/" target='_blank'><img src="https://www.svgrepo.com/show/508824/google-x2b.svg" alt="Google" className='w-10'/></a>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Landing
