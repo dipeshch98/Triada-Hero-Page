@@ -46,10 +46,10 @@ const Landing = (props) => {
                     <div>@All Right Reserved</div>
                 </div>
                 <div className='flex gap-5'>
-                    <a href="https://www.facebook.com/" target='_blank'><img src="https://www.svgrepo.com/show/521654/facebook.svg" alt="Facebook" className='w-10' /></a>
-                    <a href="https://www.instagram.com/" target='_blank'><img src="https://www.svgrepo.com/show/521711/instagram.svg" alt="Instagram" className='w-10'/></a>
-                    <a href="https://www.twitter.com/" target='_blank'><img src="https://www.svgrepo.com/show/521900/twitter.svg" alt="Twitter" className='w-10'/></a>
-                    <a href="https://www.google.com/" target='_blank'><img src="https://www.svgrepo.com/show/508824/google-x2b.svg" alt="Google" className='w-10'/></a>
+                    <a href="https://www.facebook.com/" target='_blank'><img src="https://www.svgrepo.com/show/521654/facebook.svg" alt="Facebook" className='w-7' /></a>
+                    <a href="https://www.instagram.com/" target='_blank'><img src="https://www.svgrepo.com/show/521711/instagram.svg" alt="Instagram" className='w-7'/></a>
+                    <a href="https://www.twitter.com/" target='_blank'><img src="https://www.svgrepo.com/show/521900/twitter.svg" alt="Twitter" className='w-7'/></a>
+                    <a href="https://www.google.com/" target='_blank'><img src="https://www.svgrepo.com/show/508824/google-x2b.svg" alt="Google" className='w-7'/></a>
                 </div>
             </div>
         </div>
