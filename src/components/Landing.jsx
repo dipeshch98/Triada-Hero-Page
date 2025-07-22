@@ -30,11 +30,11 @@ const Landing = (props) => {
 
             {/* This div is for Content */}
             <div className='flex justify-center items-center flex-col pt-25 gap-1'>
-                <div className='text-7xl font-mono tracking-widest'>COMMING SOON</div>
+                <div className='text-7xl tracking-widest font-sans font-light'>COMING SOON</div>
                 <div className='text-2xl'>We're currently working on somthing fantastic.</div>
                 <div className='text-2xl'>We'll be here soon, subscribe to be noticed.</div>
-                <div>
-                    <button>NOTIFY ME</button>
+                <div className='py-3'>
+                    <button className='bg-black text-white py-2 px-6 text-sm'>NOTIFY ME</button>
                 </div>
             </div>
 
